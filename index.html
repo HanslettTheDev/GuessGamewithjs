@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Guess Game - Site</title>
+</head>
+<body>
+
+    <header>
+        <h1>Guess A Number Game</h1>
+        <p>Can you Guess the computer's number!</p>
+    </header> 
+    <div id="guess-container">
+        <input type="number" name="guess-input" id="guess-input" placeholder="Tell Me Your Guess"><br>
+        <button class="btn" type="submit" id="game-button">Guess</button>
+        <button style="background-color: #1976D2;" class="btn" id="restart-button">Restart</button>
+    </div>
+    <div id="errorMessages"></div>
+    <div id="history">
+        <h3>Guess History</h3>
+        <div id="historybox"></div>
+    </div>
+    <div id="footer">
+        Made with <strong>Love</strong>
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
